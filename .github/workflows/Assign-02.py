@@ -7,6 +7,7 @@
 
 import math
 
+
 def main():
     # get input for radius from the user
     radius = float(input("Enter the radius of the hemisphere: "))
@@ -21,7 +22,10 @@ def main():
         "The volume of the hemisphere is = {:.2f}".format(volume), "{}^3".format(units)
     )
     print(
-        "The surface area of the hemisphere is = {:.2f}".format(surface_area),"{}^3".format(units))
+        "The surface area of the hemisphere is = {:.2f}".format(surface_area),
+        "{}^3".format(units),
+    )
+
 
 if __name__ == "__main__":
     main()
